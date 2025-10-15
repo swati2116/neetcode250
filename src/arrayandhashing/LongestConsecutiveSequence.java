@@ -28,7 +28,7 @@ public class LongestConsecutiveSequence {
 				if (longSequenceCount.contains(local + 1)) {
 					local = local + 1;
 					count++;
-					;
+					
 				} else {
 					if (longsequence < count) {
 						longsequence = count;

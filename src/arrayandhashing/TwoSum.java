@@ -37,6 +37,7 @@ public class TwoSum {
 			 {
 				 result[0]=nums[l];
 				 result[1]=nums[r];
+				 break;
 			 }
 			 else
 			 {
