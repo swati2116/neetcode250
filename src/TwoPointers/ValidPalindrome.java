@@ -6,8 +6,7 @@ public class ValidPalindrome {
 		int j = s.length();
 		for (int i = 0; i < s.length() / 2; i++) {
 			if (Character.isLetterOrDigit(s.charAt(i))) {
-				if (Character.isLetterOrDigit(s.charAt(j - 1))) {
-					
+				if (Character.isLetterOrDigit(s.charAt(j - 1))) {				
 					if (s.toLowerCase().charAt(i) != s.toLowerCase().charAt(j - 1)) {
 						return false;
 					}

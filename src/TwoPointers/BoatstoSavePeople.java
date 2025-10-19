@@ -16,7 +16,7 @@ public class BoatstoSavePeople {
 		}
 		return boats;
 	}
-
+//1 2 2 3 3
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BoatstoSavePeople bsp = new BoatstoSavePeople();
