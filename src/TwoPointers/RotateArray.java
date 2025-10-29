@@ -25,7 +25,7 @@ public class RotateArray {
 		// TODO Auto-generated method stub
 
 		RotateArray ra = new RotateArray();
-		int[] result = ra.rotate(new int[] { 1, 2, 3, 4, 5 }, 7);
+		int[] result = ra.rotate(new int[] { 1,2,3,4,5,6,7,8}, 4);
 		for (int no : result) {
 			System.out.print(no + ",");
 		}

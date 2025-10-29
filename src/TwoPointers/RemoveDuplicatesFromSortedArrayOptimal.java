@@ -22,7 +22,7 @@ public class RemoveDuplicatesFromSortedArrayOptimal {
 			// TODO Auto-generated method stub
 
 			RemoveDuplicatesFromSortedArrayOptimal rdsa= new RemoveDuplicatesFromSortedArrayOptimal();
-			int returnValue= rdsa.removeDuplicates(new int[] {1,1,2,3,4});
+			int returnValue= rdsa.removeDuplicates(new int[] {1,2,2,3,4});
 			System.out.println(returnValue);
 		}
 

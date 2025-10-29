@@ -49,7 +49,7 @@ public class FindKClosestElements {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FindKClosestElements fce = new FindKClosestElements();
-		List<Integer> result = fce.findClosestElements(new int[] { 2, 3, 4 }, 3, 1);
+		List<Integer> result = fce.findClosestElements(new int[] { 2,4,5,8 }, 2, 6);
 		for (int no : result) {
 			System.out.println(no);
 		}

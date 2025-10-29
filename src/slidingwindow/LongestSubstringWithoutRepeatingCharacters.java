@@ -29,8 +29,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		LongestSubstringWithoutRepeatingCharacters ls= new LongestSubstringWithoutRepeatingCharacters();
-		//int max=ls.lengthOfLongestSubstring("zxyzxyz");
-		int max=ls.lengthOfLongestSubstring("thequickbrownfoxjumpsoverthelazydogthequickbrownfoxjumpsovert");
+		int max=ls.lengthOfLongestSubstring("shailesh");
+		//int max=ls.lengthOfLongestSubstring("thequickbrownfoxjumpsoverthelazydogthequickbrownfoxjumpsovert");
 		System.out.println(max);
 		
 	}
