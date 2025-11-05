@@ -10,7 +10,7 @@ public class AsteroidCollision {
           while(!stack.isEmpty() && a<0 && stack.peek()>0) 
           {
         	  int diff=a+ stack.peek();
-        	  //if diff is less than 0 means stack top value is bigger
+        	  //if diff is less than 0 means stack top value is smaller
         	  if(diff<0)
         	  {
         		  stack.pop();

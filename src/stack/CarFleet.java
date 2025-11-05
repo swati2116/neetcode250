@@ -16,8 +16,8 @@ public class CarFleet {
         {
            if(cars[j][1]>=cars[j-1][1])
            {
-               cars[j-1][0]=cars[j][0];
-               cars[j-1][1]=cars[j][1];
+               cars[j][0]=cars[j-1][0];
+               cars[j][1]=cars[j-1][1];
            }
            else {
            

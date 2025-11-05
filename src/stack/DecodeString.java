@@ -9,7 +9,6 @@ public class DecodeString {
 	        String ans= new String();
 	        String res="";
 	        String decode="";
-	        int k=0;
 	        for(int i=0; i<s.length(); i++)
 	        {
 	            char ch= s.charAt(i);
