@@ -1,0 +1,34 @@
+package trees;
+
+public class InsertintoaBinarySearchTree {
+	public TreeNode insertIntoBST(TreeNode root, int val) {
+		if (root == null) {
+			return new TreeNode(val);
+		}
+		TreeNode curr = root;
+		while (true) {
+			if (curr.val > val) {
+				if (curr.left != null) {
+					curr = curr.left;
+				} else {
+					curr.left = new TreeNode(val);
+					break;
+				}
+			} else {
+				if (curr.right != null) {
+					curr = curr.right;
+				} else {
+					curr.right = new TreeNode(val);
+					break;
+				}
+			}
+		}
+		return root;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
